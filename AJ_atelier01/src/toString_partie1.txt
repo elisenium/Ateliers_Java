@@ -10,8 +10,8 @@ toString de la classe Pizza :
     @Override
     public String toString() {
         String infos = titre + "\n" + description + "\nIngrédients : ";
-        for (Ingredient ingredient : ingredients){
-            infos +="\n" + ingredient.getNom();
+        for (Ingredient domaine : ingredients){
+            infos +="\n" + domaine.getNom();
         }
         infos +="\nprix : " + calculerPrix() + " euros";
         return infos;
