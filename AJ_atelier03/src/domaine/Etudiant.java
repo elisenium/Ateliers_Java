@@ -68,7 +68,7 @@ public class Etudiant {
      */
     @Override
     public String toString() {
-        // TODO Auto-generated method stub
+        // Auto-generated method stub
         return lastName + " " + firstName + " [" + idNumber + "] - " + email;
     }
 

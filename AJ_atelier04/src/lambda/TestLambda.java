@@ -12,7 +12,7 @@ public class TestLambda {
         List<Integer> result;
 
 
-        //TODO: Enlever les commentaires et remplacez les ??? par des expressions lambda appropriées
+        // Enlever les commentaires et remplacez les ??? par des expressions lambda appropriées
 
         //Trouve tous les entiers de la liste qui sont plus grands que 200
         result = Lambda.allMatches(list, i -> i > 200);
@@ -35,7 +35,7 @@ public class TestLambda {
         System.out.println(result);
 
 
-        //TODO: une fois arrivé au point 1.3, enlevez les commentaires et compélétez
+        //      une fois arrivé au point 1.3, enlevez les commentaires et compélétez
         //      en remplaçant les ??? par des expression lambda appropriées
 
         List<String> list2 = Arrays.asList("hello", "bonjour", "goeiedag", "hallo", "hej");

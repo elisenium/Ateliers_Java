@@ -118,7 +118,7 @@ public class ExercicesPanaches {
 
     }
     private void exercice6() {
-        // TODO: group transaction by year
+        // group transaction by year
         System.out.println("exercice6");
         Map<Integer, List<Transaction>> s = transactions
                 .stream()
