@@ -2,14 +2,13 @@ package main;
 
 import domaine.Caisse;
 import domaine.Camion;
-import domaine.Gabarit;
 import domaine.Trajet;
 
 import java.time.LocalDate;
 
 public class Main {
     public static void main(String[] args) {
-        Camion camion = new Camion("Q-ABC-123", Gabarit.DEUX_ESSIEUX);
+        Camion camion = new Camion("Q-ABC-123", Camion.Gabarit.DEUX_ESSIEUX);
         LocalDate dateTrajet = LocalDate.now().plusDays(10);
         Trajet trajetTropLourd = new Trajet("BX-PA-001",dateTrajet,"Bruxelles","Paris");
         trajetTropLourd.ajouter(new Caisse("CA-0001",dateTrajet.plusDays(1),"Bruxelles","Paris",16500));
